@@ -57,7 +57,7 @@ int main()
 	 
 	 Quiz A;
 	 Quiz B;
-     Quiz C;
+         Quiz C;
 	 Quiz D;
 	 Quiz E;
 	 Quiz F;
