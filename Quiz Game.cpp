@@ -110,7 +110,7 @@ int main()
 void Quiz::VALUES(string q,string a1,string a2,string a3,string a4, int ca, int pa)
     
    {
-      Ques = q;
+          Ques = q;
 	  Ans1 = a1;
 	  Ans2 = a2;
 	  Ans3 = a3;
@@ -147,13 +147,13 @@ void Quiz::VALUES(string q,string a1,string a2,string a3,string a4, int ca, int 
 		cout<<endl;	
 		}
 		
-		//otherwise
-		else{
-			cout<<endl;
-			cout<<"Wrong !"<<endl;
-			cout<<"Score=0"<<"/"<<marks<<"!"<<endl;
-			cout<<"Correct Answer="<<Right_Answer<<"."<<endl;
-			cout<<endl;
-		}
-	}
+	//otherwise
+	else{
+		cout<<endl;
+		cout<<"Wrong !"<<endl;
+		cout<<"Score=0"<<"/"<<marks<<"!"<<endl;
+		cout<<"Correct Answer="<<Right_Answer<<"."<<endl;
+		cout<<endl;
+	   }
+    }
 
